@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Route } from "react-router-dom";
-import logo from "../logo.svg";
 import "../App.css";
 import Header from "../Common/Header";
 import routes from "../routes";
