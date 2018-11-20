@@ -11,7 +11,7 @@ class App extends Component {
         <Header />
         {routes.map(r => (
           <div>
-            <Route path={r.path} extract component={r.component} />
+            <Route path={r.path} exact component={r.component} />
           </div>
         ))}
       </div>
