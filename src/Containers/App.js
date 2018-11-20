@@ -10,7 +10,7 @@ class App extends Component {
       <div className="container-fluid text-center">
         <Header />
         {routes.map(r => (
-          <div>
+          <div key={r.path}>
             <Route path={r.path} exact component={r.component} />
           </div>
         ))}

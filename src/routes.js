@@ -1,9 +1,9 @@
 import HomePage from "./Components/homePage";
-import LibraryPage from "./Components/libraryPage";
+import MediaGallery from "./Containers/MediaGalleryPage";
 
 const routes = [
   { path: "/", component: HomePage },
-  { path: "/library", component: LibraryPage }
+  { path: "/library", component: MediaGallery }
 ];
 
 export default routes;
